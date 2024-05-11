@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* for box1 amazon logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url(Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid white transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* for box2 in nav bar: deliver to nepal */
+.nav-deliver{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.nav-Nepal{
+font-size: 0.95rem;
+margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 which is search bar */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* space-evenly help to keep item in flex box in such a way the they take full space which putting gap between if space available */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    /* border radius to make search box little bit curve */   
+}
+.nav-search:hover{
+    border: 2px solid orange;
+} 
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    /* border: none help to remove the border which is appear by default */
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(222, 154, 59);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.language-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.la-dropdown{
+    border: none;
+    background-color: none;
+}
+
+/* box 5: signin section */
+.nav-sigin-box{
+background-color: none;
+}
+.hello-signin{
+    font-size: 0.7rem;
+}
+.nav-sigin{
+    font-size: 0.80rem;
+    font-weight: 800;
+    /* font weight help to make text bold as per required */
+}

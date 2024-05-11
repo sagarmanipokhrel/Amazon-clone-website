@@ -112,3 +112,35 @@ background-color: none;
     font-weight: 800;
     /* font weight help to make text bold as per required */
 }
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 35px;
+}
+
+/* for panel  */
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all{
+    font-weight: 700;
+}
+
+.panel-options p{
+    display: inline;
+    margin: 10px;
+}
+.panel-options{
+    width: 90%;
+    font-size: 0.90rem;
+}

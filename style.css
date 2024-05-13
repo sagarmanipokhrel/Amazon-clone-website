@@ -176,9 +176,16 @@ background-color: none;
     justify-content: center;
     align-items: center;
 
+
     
 }
 .box-content img{
     max-width: 100%;
     height: auto;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

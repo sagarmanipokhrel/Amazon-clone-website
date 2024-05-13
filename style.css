@@ -152,7 +152,16 @@ background-color: none;
     background-image: url("Images/hero_image.jpg");
     height: 350px;
     background-size: cover;
+    animation: slider 12s infinite linear;  
+    /* animation ko lagi , 12 secomd ma 3ota image display hunxa, infinite vaneko loop ma, linear means autai speed ma smooth animation */
+    /* three image that we want to display are given below  */
 }
+@keyframes slider{
+    0%{background-image: url("Images/hero_image.jpg");}
+    35%{background-image: url(Images/hero_image1.jpg);}
+    75%{background-image: url(Images/hero_image2.jpg);}
+}
+
 
 /* shop section */
 
